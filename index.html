@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Impact of Strand Offerings on Students' Career Choices</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"], input[type="number"], select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 20px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .likert-table th, .likert-table td {
+            text-align: center;
+            padding: 5px;
+        }
+        .likert-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .likert-table th {
+            background: #f9f9f9;
+        }
+        .likert-table tr:hover {
+            background-color: #f1f1f1;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>The Impact of Strand Offerings on Students' Career Choices</h1>
+        <p>
+            The researchers are conducting this study in partial fulfillment of the requirements for the Senior High School General Academic Strand (GAS). Please answer honestly and sincerely. Your responses will be kept confidential.
+        </p>
+        
+        <form id="survey-form">
+            <h2>Informed Assent</h2>
+            <label>
+                <input type="checkbox" required> I provide my assent to participate.
+            </label>
+            <h2>Part 1: Profile of the Respondents</h2>
+            <label for="name">Name (optional):</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label for="graduation-year">Graduation Year:</label>
+            <input type="number" id="graduation-year" name="graduation-year" required>
+            
+            <label for="strand">Strand Taken:</label>
+            <select id="strand" name="strand" required>
+                <option value="">Select</option>
+                <option value="abm">ABM</option>
+                <option value="stem">STEM</option>
+                <option value="humss">HUMSS</option>
+                <option value="gas">GAS</option>
+                <option value="tvl">TVL</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <h2>Part 2: Career Decision-Making Process</h2>
+            <h3>Accessibility of Strand Offerings</h3>
+            <table class="likert-table" border="1">
+                <thead>
+                    <tr>
+                        <th>Statement</th>
+                        <th>5</th>
+                        <th>4</th>
+                        <th>3</th>
+                        <th>2</th>
+                        <th>1</th>
+                    </tr```html
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>I had enough strand options available to match my career interests.</td>
+                        <td><input type="radio" name="q1" value="5"></td>
+                        <td><input type="radio" name="q1" value="4"></td>
+                        <td><input type="radio" name="q1" value="3"></td>
+                        <td><input type="radio" name="q1" value="2"></td>
+                        <td><input type="radio" name="q1" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td>I felt the strand offerings available were aligned with my career goals.</td>
+                        <td><input type="radio" name="q2" value="5"></td>
+                        <td><input type="radio" name="q2" value="4"></td>
+                        <td><input type="radio" name="q2" value="3"></td>
+                        <td><input type="radio" name="q2" value="2"></td>
+                        <td><input type="radio" name="q2" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td>I felt limited in my career options due to the strand offerings available.</td>
+                        <td><input type="radio" name="q3" value="5"></td>
+                        <td><input type="radio" name="q3" value="4"></td>
+                        <td><input type="radio" name="q3" value="3"></td>
+                        <td><input type="radio" name="q3" value="2"></td>
+                        <td><input type="radio" name="q3" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td>If there had been more strand options available, I would have chosen a different strand.</td>
+                        <td><input type="radio" name="q4" value="5"></td>
+                        <td><input type="radio" name="q4" value="4"></td>
+                        <td><input type="radio" name="q4" value="3"></td>
+                        <td><input type="radio" name="q4" value="2"></td>
+                        <td><input type="radio" name="q4" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td>I found it difficult to choose a strand because there were too few options.</td>
+                        <td><input type="radio" name="q5" value="5"></td>
+                        <td><input type="radio" name="q5" value="4"></td>
+                        <td><input type="radio" name="q5" value="3"></td>
+                        <td><input type="radio" name="q5" value="2"></td>
+                        <td><input type="radio" name="q5" value="1"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Alignment with Career Goals</h3>
+            <table class="likert-table" border="1">
+                <thead>
+                    <tr>
+                        <th>Statement</th>
+                        <th>5</th>
+                        <th>4</th>
+                        <th>3</th>
+                        <th>2</th>
+                        <th>1</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>My strand was closely aligned with my career goals at the time.</td>
+                        <td><input type="radio" name="q6" value="5"></td>
+                        <td><input type="radio" name="q6" value="4"></td>
+                        <td><input type="radio" name="q6" value="3"></td>
+                        <td><input type="radio" name="q6" value="2"></td>
+                        <td><input type="radio" name="q6" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td>I was confident in my career goals when I picked my strand.</td>
+                        <td><input type="radio" name="q7" value="5"></td>
+                        <td><input type="radio" name="q7" value="4"></td>
+                        <td><input type="radio" name="q7" value="3"></td>
+                        <td><input type="radio" name="q7" value="2"></td>
+                        <td><input type="radio" name="q7" value="1"></td>
+                    </ tr>
+				<tr>
+                        <td>My career goals changed after I chose my strand.</td>
+                        <td><input type="radio" name="q8" value="5"></td>
+                        <td><input type="radio" name="q8" value="4"></td>
+                        <td><input type="radio" name="q8" value="3"></td>
+                        <td><input type="radio" name="q8" value="2"></td>
+                        <td><input type="radio" name="q8" value="1"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>Influence of Others</h3>
+            <table class="likert-table" border="1">
+                <thead>
+                    <tr>
+                        <th>Statement</th>
+                        <th>5</th>
+                        <th>4</th>
+                        <th>3</th>
+                        <th>2</th>
+                        <th>1</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>My family played a big role in helping me choose my strand.</td>
+                        <td><input type="radio" name="q9" value="5"></td>
+                        <td><input type="radio" name="q9" value="4"></td>
+                        <td><input type="radio" name="q9" value="3"></td>
+                        <td><input type="radio" name="q9" value="2"></td>
+                        <td><input type="radio" name="q9" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td>My friends influenced my decision when choosing my strand.</td>
+                        <td><input type="radio" name="q10" value="5"></td>
+                        <td><input type="radio" name="q10" value="4"></td>
+                        <td><input type="radio" name="q10" value="3"></td>
+                        <td><input type="radio" name="q10" value="2"></td>
+                        <td><input type="radio" name="q10" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td>Teachers or counselors gave me helpful advice about my career and strand choice.</td>
+                        <td><input type="radio" name="q11" value="5"></td>
+                        <td><input type="radio" name="q11" value="4"></td>
+                        <td><input type="radio" name="q11" value="3"></td>
+                        <td><input type="radio" name="q11" value="2"></td>
+                        <td><input type="radio" name="q11" value="1"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Part 3: Career Choices</h2>
+            <h3>Confidence in Career Path</h3>
+            <table class="likert-table" border="1">
+                <thead>
+                    <tr>
+                        <th>Statement</th>
+                        <th>5</th>
+                        <th>4</th>
+                        <th>3</th>
+                        <th>2</th>
+                        <th>1</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>I felt confident about my career path when I graduated.</td>
+                        <td><input type="radio" name="q12" value="5"></td>
+                        <td><input type="radio" name="q12" value="4"></td>
+                        <td><input type="radio" name="q12" value="3"></td>
+                        <td><input type="radio" name="q12" value="2"></td>
+                        <td><input type="radio" name="q12" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td>My strand choice helped me follow the career I’m pursuing now.</td>
+                        <td><input type="radio" name="q13" value="5"></td>
+                        <td><input type="radio" name="q13" value="4"></td>
+                        <td><input type="radio" name="q13" value="3"></td>
+                        <td><input type="radio" name="q13" value="2"></td>
+                        <td><input type="radio" name="q13" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td>If I had chosen a different strand, my career path might have been different.</td>
+                        <td><input type="radio" name="q14" value="5"></td>
+                        <td><input type="radio" name="q14" value="4"></td>
+                        <td><input type="radio" name="q14" value="3"></td>
+                        <td><input type="radio" name="q14" value="2"></td>
+                        <td><input type="radio" name="q14" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td>I am satisfied with the career path I am on, considering the strand I chose.</td>
+                        <td><input type="radio" name="q15" value="5"></td>
+                        <td><input type="radio" name="q15" value="4"></td>
+                        <td><input type="radio" name="q15" value="3"></td>
+                        <td><input type="radio" name="q15" value="2"></td>
+                        <td><input type="radio" name="q15" value="1"></td>
+                    </tr>
+                    <tr>
+                        <td>I feel that my career goals have become clearer since I graduated.</td>
+                        <td><input type="radio" name="q16" value="5"></td>
+                        <td><input type="radio" name="q16" value="4"></td>
+                        <td><input type="radio" name="q16" value="3"></td>
+                        <td><input type="radio" name="q16" value="2"></td>
+                        <td><input type="radio" name="q16" value="1"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button type="submit">Submit</button>
+        </form>
+        
+        <footer>
+            <p>Thank you for participating in our research!</p>
+        </footer>
+    </div>
+    <script>
+    document.getElementById('survey-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        // Gather form data
+        const formData = new FormData(this);
+        const data = {};
+        formData.forEach((value, key) => {
+            data[key] = value;
+        });
+
+        // Send data to the back-end
+        fetch('http://localhost:3000/submit-survey', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert(data.message);
+            // Optionally reset the form
+            this.reset();
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('There was an error submitting your response. Please try again.');
+        });
+    });
+</script>
+</body>
+</html>
